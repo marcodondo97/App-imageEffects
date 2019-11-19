@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title> Effect image project </title>
+    <meta charset="UTF-8">
+    <meta name="description" content="Application for apply filters on photos">
+    <meta name="author" content="Marco Dondo">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Fredoka+One&display=swap" rel="stylesheet"><!-- Google font fredoka -->
+<link rel="stylesheet" type="text/css" href="css/style.css"> <!-- external css -->
+
+
+
+    
+</head>
+
+
+<body>
+
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-sm-10 col-sm-offset-1 col-xs-10 col-xs-offset-1 text-center">
+                <canvas height="400px;" class="img-fluid" id="canvasphoto" />
+            </div>
+        </div>
+
+    </div>
+    <div class="container-fluid" id="wrap">
+        <div id="row1" class="row">
+            <div class="  text-center col-sm-10 col-sm-offset-1 col-xs-10 col-xs-offset-1 ">
+                <input class="input" type="file" id="inputphoto" accept="image/*" />
+            </div>
+        </div>
+        <div id="effect">
+            <div class="row">
+                <div id="blockeffect" class="col-sm-10 col-sm-offset-1 col-xs-10 col-xs-offset-1">
+                    Effects
+                </div>
+            </div>
+            <div class="row">
+                <div id="inputfilter" class="col-sm-10 col-sm-offset-1 col-xs-10 col-xs-offset-1 input">
+                    <button class="button1" onclick="blureffect();" style="filter: blur(0.8px);"> <span> blur </span></button>
+                    <button class="button1" onclick="sepiaeffect();" style="filter: sepia(1);"><span> sepia</span></button>
+                    <button class="button1" onclick=" brightnesseffect();" style="filter:  brightness(2);"><span> brightness</span></button>
+                    <button class="button1" onclick="contrasteffect() ;" style="filter: contrast(3)  ;"> <span>contrast</span></button>
+                    <button class="button1" onclick=" grayscaleeffect();" style="filter: grayscale(1) ;"> <span>black and white</span></button>
+                    <button class="button1" onclick=" huerotateeffect();" style="filter:  hue-rotate(90deg) ;"><span> hue rotate</span></button>
+                    <button class="button1" onclick=" inverteffect();" style="filter:  invert(75%) ;"> <span>invert</span></button>
+                    <button class="button1" onclick=" opacityeffect();" style="filter: opacity(60%) ;"> <span>opacity</span> </button>
+                    <button class="button1" onclick=" saturateeffect();" style="filter: saturate(80%) ;"> <span>saturate</span></button>
+                </div>
+            </div>
+        </div>
+        <br>
+        <div id="download">
+            <div class="row">
+                <div id="blockdownload" class="col-sm-10 col-sm-offset-1 col-xs-10 col-xs-offset-1">
+                    Download
+                </div>
+            </div>
+            <div class="row">
+                <div id="inputdownload" class="col-sm-10 col-sm-offset-1 col-xs-10 col-xs-offset-1 input">
+                    <button onclick="download_image()">Download</button>
+                </div>
+            </div>
+        </div>
+        <div id="reset">
+            <div class="row">
+                <div id="blockreset" class="col-sm-10 col-sm-offset-1 col-xs-10 col-xs-offset-1">
+                    Delete filter
+                </div>
+            </div>
+            <div class="row">
+                <div id="inputreset" class="col-sm-10 col-sm-offset-1 col-xs-10 col-xs-offset-1 input">
+                    <button onclick="resetfilter();">Reset image </button>
+                </div>
+            </div>
+        </div>
+    </div>
+<script src="js/script.js"></script> <!--external script ->
+    
+
+    <!-- App works only in Chrome browser and Firefox. Documentation: https://developer.mozilla.org/en-US/docs/Web/API/CanvasRenderingContext2D/filter-->
+
+
+</body>
+
+</html>
