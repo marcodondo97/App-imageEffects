@@ -11,4 +11,5 @@ To create this web application the "canvas" tag has used to allow you to edit th
 For more informations follow https://developer.mozilla.org/en-US/docs/Web/API/CanvasRenderingContext2D/filter
 
 <h2>&#x1F53A; Warning &#x1F53A; </h2>
-Alert the web application works only in Chrome and Firefox browser i have not used Modernizr to optimize browser compatibility.
+Alert the web application works only in Chrome and Firefox browser!
+I have not used Modernizr to optimize browser compatibility.
