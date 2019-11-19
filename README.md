@@ -13,3 +13,14 @@ For more informations follow https://developer.mozilla.org/en-US/docs/Web/API/Ca
 <h2>&#x1F53A; Warning &#x1F53A; </h2>
 Alert the web application works only in Chrome and Firefox browser!
 I have not used Modernizr to optimize browser compatibility.
+
+<h2> Screenshot </h2>
+
+<img src="screenshot/screenshot1.jpg" width="40%">
+Screenshot 1 main page
+<img src="screenshot/screenshot2.jpg" width="40%">
+Screenshot 2 upload photo
+<img src="screenshot/screenshot3.jpg" width="40%">
+Screenshot 3 download
+<img src="screenshot/screenshot4.jpg" width="40%">
+Screenshot responsive design
