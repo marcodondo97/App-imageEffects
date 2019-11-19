@@ -1,7 +1,7 @@
 # App_imageEffects
 Web app to customize photos and insert filters
 
-<h2> Introduce </h2>
+<h2> Introduction </h2>
 This is a simple web application that allows you to apply graphic filters to photographs, subsequently you can download the modified image.
 
 <h2> Description</h2>
@@ -14,7 +14,7 @@ For more informations follow https://developer.mozilla.org/en-US/docs/Web/API/Ca
 Alert! The web application only works in Chrome and Firefox browsers!
 I didn't use Modernizr to optimize the browser compatibility.
 
-<h2> Screenshot </h2>
+<h2> Images </h2>
 
 <img src="screenshot/screenshot1.jpg" width="40%">
 Screenshot 1 main page
