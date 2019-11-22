@@ -2,7 +2,7 @@
 Web app to customize photos and insert filters
 
 <h2> Introduction </h2>
-This is a simple web application that allows you to apply graphic filters to photographs, subsequently you can download the modified image.
+This is a simple progressive web application that allows you to apply graphic filters to photographs, subsequently you can download the modified image.
 
 <h2> Description</h2>
 
@@ -22,5 +22,5 @@ Screenshot 1 main page
 Screenshot 2 upload photo
 <img src="screenshot/screenshot3.jpg" width="40%">
 Screenshot 3 download
-<img src="screenshot/screenshot4.jpg" width="40%">
+<img src="screenshot/screenshot5.png" width="40%">
 Screenshot responsive design
