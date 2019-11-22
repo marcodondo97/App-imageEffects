@@ -18,7 +18,7 @@ I didn't use Modernizr to optimize the browser compatibility.
 
 <img src="screenshot/screenshot1.jpg" width="40%">
 Screenshot 1 main page
-<img src="screenshot/screenshot5.png" width="20%">
+<img src="screenshot/screenshot5.jpg" width="20%">
 Screenshot PWA responsive design
-<img src="screenshot/screenshot6.png" width="20%">
+<img src="screenshot/screenshot6.jpg" width="20%">
 Screenshot Add Home screen
