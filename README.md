@@ -1,4 +1,4 @@
-# App_imageEffects
+# PWA_imageEffects
 Progressive web application to customize photos and insert filters
 
 <h2> Introduction </h2>
